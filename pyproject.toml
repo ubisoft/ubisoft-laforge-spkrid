@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spkr-id"
+dynamic = ["version"]
+authors = [
+    { name = "Marc-André Carbonneau", email = "marcandre.carbonneau@gmail.com" },
+]
+description = "Code for analyzing and improving speaker similarity assessment for speech synthesis"
+readme = "README.md"
+license = { file = "LICENSE.md" }
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = [
+    "numba",
+    "pandas",
+    "scikit-learn",
+    "scipy",
+    "speechbrain",
+    "torch",
+    "torchaudio",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools_scm]
+write_to = "src/_version.py"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+log_cli = true
+testpaths = [
+    "tests",
+]

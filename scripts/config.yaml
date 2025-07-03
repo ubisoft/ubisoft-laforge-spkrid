@@ -1,0 +1,7 @@
+ground_truth_dir:  # if blank, will default to project_dir/scripts/audios/ground_truth
+synthesis_dir:  # if blank, will default to project_dir/scripts/audios/synthesized
+device: cpu  # cpu / cuda
+
+eer:
+  embedding_type: ecapa-tdnn  # ecapa-tdnn / resnet-tdnn / x-vector
+  nb_samples: 200
