@@ -2,16 +2,11 @@
 
 # Analyzing and Improving Speaker Similarity Assessment for Speech Synthesis
 
-[![arXiv](...)](...) # path to arxiv paper
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2507.02176)
 
-Official repository for [Analyzing and Improving Speaker Similarity Assessment for Speech Synthesis](...).
+Official repository for [Analyzing and Improving Speaker Similarity Assessment for Speech Synthesis](https://arxiv.org/abs/2507.02176).
 
-**Abstract**: Modeling voice identity is challenging due to its multifaceted nature. 
-In generative speech systems, identity is often assessed using automatic speaker verification (ASV) embeddings, designed for discrimination rather than characterizing identity.
-This paper investigates which aspects of a voice are captured in such representations. We find that widely used ASV embeddings focus mainly on static features like timbre and pitch range, while
-neglecting dynamic elements such as rhythm. We also identify confounding factors that compromise speaker similarity measurements and suggest mitigation strategies.
-To address these gaps, we propose U3D, a metric that evaluates speakers’ dynamic rhythm patterns. This work contributes to the ongoing challenge of assessing
-speaker identity consistency in the context of ever-better voice cloning systems.
+**Abstract**: Modeling voice identity is challenging due to its multifaceted nature. In generative speech systems, identity is often assessed using automatic speaker verification (ASV) embeddings, designed for discrimination rather than characterizing identity. This paper investigates which aspects of a voice are captured in such representations. We find that widely used ASV embeddings focus mainly on static features like timbre and pitch range, while neglecting dynamic elements such as rhythm. We also identify confounding factors that compromise speaker similarity measurements and suggest mitigation strategies. To address these gaps, we propose U3D, a metric that evaluates speakers’ dynamic rhythm patterns. This work contributes to the ongoing challenge of assessing speaker identity consistency in the context of ever-better voice cloning systems.
 
 ## Get Started
 
@@ -120,7 +115,12 @@ Specifically, the first 20 lines from the speakers "aew", "jmk", "lnh".
 If you found this work helpful please consider citing our paper.
 
 ```
-...
+@inproceedings{Carbonneau2025,
+      title={Analyzing and Improving Speaker Similarity Assessment for Speech Synthesis}, 
+      author={Marc-Andr{\'e} Carbonneau and Benjamin van Niekerk and Hugo Seut{\'e} and Jean-Philippe Letendre and Herman Kamper and Julian Za{\"i}di},
+      year={2025},
+      booktitle={Interspeech SSW Workshop}
+}
 ```
 
 © [2025] Ubisoft Entertainment. All Rights Reserved
